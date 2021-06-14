@@ -1,0 +1,69 @@
+configure_dotfiles: false
+configure_terminal: false
+configure_osx: false
+
+dotfiles_repo: https://github.com/albertagustin/dotfiles.git
+dotfiles_repo_local_destination: ~/Development/git/dotfiles
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  # - bash
+  # - curl
+  # - direnv
+  - git
+  # - helm
+  # - htop
+  # - jq
+  # - kubernetes-cli
+  # - kubernetes-helm
+  # - lastpass-cli
+  # - node
+  # - nvm
+  # - openssl
+  # - pipenv
+  # - pyenv
+  # - sqlite
+  # - ssh-copy-id
+  # - tree
+  # - wget
+  # - zsh
+  # - zsh-autosuggestions
+  # - zsh-completions
+  # - zsh-history-substring-search
+  # - zsh-syntax-highlighting
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - aerial
+  # - alfred
+  # - bartender
+  # - bitbar
+  # - coconutbattery
+  # - corelocationcli
+  # - docker
+  # - dropbox
+  # - firefox
+  # - google-chrome
+  # - iterm2
+  # - monitorcontrol
+  # - spectacle
+  # - vagrant
+  # - virtualbox
+  # - visual-studio-code
+
+mas_email: albertagustin@gmail.com
+mas_password: ""
+mas_installed_apps:
+  - 937984704   # amphetamine
+  # - 961632517   # befocused pro
+  # - 290986013   # deliveries
+  # - 975937182   # fantastical
+  # - 1303222628  # paprika 3
+  # - 1191449274  # toothfairy
+  # - 425424353   # unarchiver
+  # - 577085396   # unclutter
+  # - 1451685025  # wireguard
